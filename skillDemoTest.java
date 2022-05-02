@@ -5,6 +5,6 @@ public class skillDemoTest {
     @Test
     public void testConcat() {
         skillDemo skillDemo = new skillDemo();
-        assertEquals("one two", skillDemo.concat("one", "two"));
+        assertEquals("onetwo", skillDemo.concat("one", "two"));
     }
 }
